@@ -1,0 +1,40 @@
+{
+  "name": "q-cumber",
+  "version": "0.1.0",
+  "description": "A simple queue management library",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --out-dir dist",
+    "compile:watch": "babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrech/q-cumber.git"
+  },
+  "keywords": [
+    "queue",
+    "mongodb"
+  ],
+  "author": "Shane Grech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgrech/q-cumber/issues"
+  },
+  "homepage": "https://github.com/sgrech/q-cumber#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "npm-run-all": "^4.1.1"
+  }
+}
