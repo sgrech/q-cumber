@@ -1,0 +1,4 @@
+export const QUEUE_PENDING = 'PENDING'
+export const QUEUE_PROCESSING = 'PROCESSING'
+export const QUEUE_FAILED = 'FAILED'
+export const QUEUE_SUCCESSFUL = 'SUCCESSFUL'

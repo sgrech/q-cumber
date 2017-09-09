@@ -4,8 +4,12 @@
   "plugins": [
     "node",
     "babel",
-    "promise"
+    "promise",
+    "chai-expect"
   ],
+  "env": {
+    "mocha": true
+  },
   "globals": {
     "__DEV__": false,
     "__TEST__": false,
